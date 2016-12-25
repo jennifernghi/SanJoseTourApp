@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SanJoseTourApp</string>
+    <string name="restaurant_category">Restaurant</string>
+    <string name="night_life_category">NightLife</string>
+    <string name="shopping_category">Shopping</string>
+    <string name="nature_category">Nature</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
