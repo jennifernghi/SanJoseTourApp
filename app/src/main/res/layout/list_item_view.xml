@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:gravity="top"
             tools:text="location name"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:textStyle="bold"
             android:textColor="@color/black"
             />
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:gravity="top"
             tools:text="address"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textStyle="normal"
             android:textColor="@color/black"
             android:layout_marginTop="2dp"/>
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:gravity="top"
             tools:text="description"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textStyle="normal"
             android:textColor="@color/black"
             android:layout_marginTop="2dp"/>
