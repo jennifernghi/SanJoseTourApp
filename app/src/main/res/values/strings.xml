@@ -7,4 +7,24 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="kali_restaurant_name">Kali Noodles and Tea Bar</string>
+    <string name="kali_restaurant_address">374 E Santa Clara St San Jose, CA 95113</string>
+    <string name="kali_restaurant_description">Vietnamese, Coffee and Tea, Noodles</string>
+
+    <string name="cubamex_restaurant_name">Cubamex</string>
+    <string name="cubamex_restaurant_address">325 S 1st St Ste 120, San Jose, CA 95113</string>
+    <string name="cubamex_restaurant_description">Sandwiches, Coffee and Tea</string>
+
+    <string name="the_city_fish_restaurant_name">The City Fish</string>
+    <string name="the_city_fish_restaurant_address">30 E Santa Clara St Ste 140, San Jose, CA 95113</string>
+    <string name="the_city_fish_restaurant_description">  Seafood, Fish and Chips, Sandwiches</string>
+
+    <string name="danbi_korean_restaurant_name">Danbi Korean Restaurant</string>
+    <string name="danbi_korean_restaurant_address">1092 N 1st St, San Jose, CA 95112</string>
+    <string name="danbi_korean_restaurant_description">Korean</string>
+
+    <string name="hawaiian_poke_bowl_restaurant_name">Hawaiian Poke Bowl</string>
+    <string name="hawaiian_poke_bowl_restaurant_address">SoFa Market 387 S 1st St, San Jose, CA 95113</string>
+    <string name="hawaiian_poke_bowl_restaurant_description">Food Stands, Hawaiian, Poke</string>
 </resources>
