@@ -27,4 +27,20 @@
     <string name="hawaiian_poke_bowl_restaurant_name">Hawaiian Poke Bowl</string>
     <string name="hawaiian_poke_bowl_restaurant_address">SoFa Market 387 S 1st St, San Jose, CA 95113</string>
     <string name="hawaiian_poke_bowl_restaurant_description">Food Stands, Hawaiian, Poke</string>
+
+    <string name="edgie_billiards_name">Edgie’s Billiards</string>
+    <string name="edgie_billiards_address">235 S Milpitas Blvd Milpitas, CA 95035</string>
+    <string name="edgie_billiards_description">Pool Halls</string>
+
+    <string name="comedysportz_name">ComedySportz</string>
+    <string name="comedysportz_address">288 S. 2nd St, San Jose, CA 95113</string>
+    <string name="comedysportz_description"> Comedy Clubs, Performing Arts, Party</string>
+
+    <string name="south_bay_apa_name">South Bay APA</string>
+    <string name="south_bay_apa_address">5255 Stevens Creek Blvd #315 San Jose, CA 95051</string>
+    <string name="south_bay_apa_description">Pool Halls, Amateur Sports Teams</string>
+
+    <string name="stage_4_improv_name">Stage 4 Improv</string>
+    <string name="stage_4_improv_address">288 S Second St, San Jose, CA 95113</string>
+    <string name="stage_4_improv_description">Comedy Clubs</string>
 </resources>
