@@ -16,6 +16,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 
     private Context context;
     private CharSequence[] pageTitle;
+
     public ViewPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
         this.context=context;
