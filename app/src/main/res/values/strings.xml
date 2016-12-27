@@ -43,4 +43,26 @@
     <string name="stage_4_improv_name">Stage 4 Improv</string>
     <string name="stage_4_improv_address">288 S Second St, San Jose, CA 95113</string>
     <string name="stage_4_improv_description">Comedy Clubs</string>
+
+    <string name="santana_row_name">Santana Row</string>
+    <string name="santana_row_address">377 Santana Row, San Jose, CA 95128</string>
+    <string name="santana_row_description">Shopping centers</string>
+
+    <string name="eastridge_name">Eastridge</string>
+    <string name="eastridge_address">2200 Eastridge Loop, San Jose, CA 95122</string>
+    <string name="eastridge_description">Shopping Mall</string>
+
+    <string name="west_field_valley_fair_name">Westfield Valley Fair</string>
+    <string name="west_field_valley_fair_address">2855 Stevens Creek Blvd, Santa Clara, CA 95050</string>
+    <string name="west_field_valley_fair_description">Shopping Mall</string>
+
+    <string name="west_field_oakridge_name">Westfield Oakridge</string>
+    <string name="west_field_oakridge_address">925 Blossom Hill Rd, San Jose, CA 95123</string>
+    <string name="west_field_oakridge_description">Shopping Mall</string>
+
+    <string name="downtown_willow_glen_name">Downtown Willow Glen</string>
+    <string name="downtown_willow_glen_address">1261 Lincoln Ave, San Jose, CA 95125</string>
+    <string name="downtown_willow_glen_description">Shopping</string>
+
+
 </resources>
