@@ -16,7 +16,7 @@
         android:layout_gravity="top"
         android:background="@android:color/white"
         app:tabBackground="@drawable/tab_color_selector"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="5dp"
        />
 
 
