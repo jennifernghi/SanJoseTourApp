@@ -5,8 +5,13 @@
     <string name="shopping_category">Shopping</string>
     <string name="nature_category">Nature</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="categories">
+        <item>Restaurant</item>
+        <item>NightLife</item>
+        <item>Shopping</item>
+        <item>Shopping</item>
+    </string-array>
+
 
     <string name="kali_restaurant_name">Kali Noodles and Tea Bar</string>
     <string name="kali_restaurant_address">374 E Santa Clara St San Jose, CA 95113</string>

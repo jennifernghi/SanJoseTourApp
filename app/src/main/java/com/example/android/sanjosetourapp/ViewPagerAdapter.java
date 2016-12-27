@@ -1,6 +1,7 @@
 package com.example.android.sanjosetourapp;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -13,11 +14,12 @@ import java.util.List;
  */
 public class ViewPagerAdapter extends FragmentPagerAdapter {
 
-    //private String[] pageTitle = {String.valueOf(R.string.restaurant_category),String.valueOf(R.string.night_life_category),String.valueOf(R.string.shopping_category),String.valueOf(R.string.nature_category)};
-    private String[] pageTitle = {"Restaurant","Nightlife","Shopping","Nature"};
-
-    public ViewPagerAdapter(FragmentManager fm) {
+    private Context context;
+    private CharSequence[] pageTitle;
+    public ViewPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
+        this.context=context;
+        pageTitle = context.getResources().getStringArray(R.array.categories);
     }
 
     @Override
@@ -41,13 +43,13 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
         if(position==0){
-            return "Restaurant";
+            return pageTitle[0];
         }else if(position==1){
-            return "Nightlife";
+            return pageTitle[1];
         }else if (position==2){
-            return "Shopping";
+            return pageTitle[2];
         }else{
-            return "Nature";
+            return pageTitle[3];
         }
     }
 }
