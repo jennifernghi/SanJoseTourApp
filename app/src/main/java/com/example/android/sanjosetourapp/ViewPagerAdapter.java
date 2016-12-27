@@ -53,4 +53,6 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
             return pageTitle[3];
         }
     }
+
+
 }

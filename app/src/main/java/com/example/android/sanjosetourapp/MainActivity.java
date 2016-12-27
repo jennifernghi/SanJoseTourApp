@@ -14,13 +14,20 @@ public class MainActivity extends AppCompatActivity {
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
+
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager(), this);
         viewPager.setAdapter(adapter);
+
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
         for(int i=0; i< icons.length; i++){
             tabLayout.getTabAt(i).setIcon(icons[i]);
         }
+
+
+
+
+
     }
 }
