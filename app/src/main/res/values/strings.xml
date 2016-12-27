@@ -64,5 +64,25 @@
     <string name="downtown_willow_glen_address">1261 Lincoln Ave, San Jose, CA 95125</string>
     <string name="downtown_willow_glen_description">Shopping</string>
 
+    <string name="sierra_vista_open_space_preserve_name">Sierra Vista Open Space Preserve</string>
+    <string name="sierra_vista_open_space_preserve_address">5347 Sierra Rd, San Jose, CA 95132</string>
+    <string name="sierra_vista_open_space_preserve_description">Hiking</string>
+
+    <string name="sierra_road_name">Sierra Road</string>
+    <string name="sierra_road_address">Sierra Road, San Jose, CA 95132</string>
+    <string name="sierra_road_description">Hiking</string>
+
+    <string name="mission_peak_regional_park_name">Mission Peak Regional Park</string>
+    <string name="mission_peak_regional_park_address">43600 Mission Blvd, Fremont, CA 94539</string>
+    <string name="mission_peak_regional_park_description">Parks, Hiking</string>
+
+    <string name="san_jose_municipal_rose_garden_name">San Jose Municipal Rose Garden</string>
+    <string name="san_jose_municipal_rose_garden_address">Naglee Ave and Dana Ave, San Jose, CA 95126</string>
+    <string name="san_jose_municipal_rose_garden_description">Parks, Botanical Gardens</string>
+
+    <string name="japanese_friendship_garden_name">Japanese Friendship Garden</string>
+    <string name="japanese_friendship_garden_address">1300 Senter Rd, San Jose, CA 95106</string>
+    <string name="japanese_friendship_garden_description">Parks, Botanical Gardens</string>
+
 
 </resources>
