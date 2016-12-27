@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SanJoseTourApp</string>
+    <string name="app_name">San Jose Tour Guide</string>
     <string name="restaurant_category">Restaurant</string>
     <string name="night_life_category">NightLife</string>
     <string name="shopping_category">Shopping</string>

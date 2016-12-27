@@ -17,7 +17,8 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:orientation="vertical"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp">
 
         <TextView
             android:id="@+id/location_name_text_view"
