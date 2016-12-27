@@ -1,17 +1,11 @@
 <resources>
     <string name="app_name">San Jose Tour Guide</string>
-    <string name="restaurant_category">Restaurant</string>
-    <string name="night_life_category">NightLife</string>
-    <string name="shopping_category">Shopping</string>
-    <string name="nature_category">Nature</string>
-
     <string-array name="categories">
-        <item>Restaurant</item>
+        <item>Food</item>
         <item>NightLife</item>
         <item>Shopping</item>
         <item>Nature</item>
     </string-array>
-
 
     <string name="kali_restaurant_name">Kali Noodles and Tea Bar</string>
     <string name="kali_restaurant_address">374 E Santa Clara St San Jose, CA 95113</string>
@@ -88,6 +82,5 @@
     <string name="japanese_friendship_garden_name">Japanese Friendship Garden</string>
     <string name="japanese_friendship_garden_address">1300 Senter Rd, San Jose, CA 95106</string>
     <string name="japanese_friendship_garden_description">Parks, Botanical Gardens</string>
-
 
 </resources>
