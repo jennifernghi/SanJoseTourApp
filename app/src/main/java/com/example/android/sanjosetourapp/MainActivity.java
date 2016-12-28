@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setIcon(R.drawable.app_icon);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
         setContentView(R.layout.activity_main);
-        
+
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager(), this);
@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
+        //set tab icons
         for (int i = 0; i < icons.length; i++) {
             tabLayout.getTabAt(i).setIcon(icons[i]);
         }
