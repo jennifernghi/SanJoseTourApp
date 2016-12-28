@@ -6,10 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -18,14 +15,14 @@ import java.util.List;
  */
 public class LocationAdapter extends ArrayAdapter<Location> {
 
-    public LocationAdapter(Context context, List<Location> objects){
-        super(context,0,objects);
+    public LocationAdapter(Context context, List<Location> objects) {
+        super(context, 0, objects);
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        if(convertView==null){
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item_view,parent,false);
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item_view, parent, false);
         }
 
         Location currentLocation = getItem(position);
@@ -33,23 +30,19 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         //show image if it exists
         ImageView imageLocation = (ImageView) convertView.findViewById(R.id.image);
 
-        if(currentLocation.hasImage()){
+        if (currentLocation.hasImage()) {
             imageLocation.setVisibility(View.VISIBLE);
             imageLocation.setImageResource(currentLocation.getImageResourceId());
-        }else{
+        } else {
             imageLocation.setVisibility(View.GONE);
         }
-
-        //show all the texts
-
-        //LinearLayout textContainer = (LinearLayout) convertView.findViewById(R.id.text_container);
-
+        //location name
         TextView locationName = (TextView) convertView.findViewById(R.id.location_name_text_view);
         locationName.setText(currentLocation.getLocationName());
-
+        //location address
         TextView address = (TextView) convertView.findViewById(R.id.address_text_view);
         address.setText(currentLocation.getAddress());
-
+        //location description
         TextView description = (TextView) convertView.findViewById(R.id.description_text_view);
         description.setText(currentLocation.getDescription());
         return convertView;

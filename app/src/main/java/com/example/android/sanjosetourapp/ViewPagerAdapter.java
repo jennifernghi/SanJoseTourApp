@@ -17,6 +17,11 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
     private Context context;
     private CharSequence[] pageTitle;
 
+    /**
+     * connstructor
+     * @param fm
+     * @param context
+     */
     public ViewPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
         this.context=context;
@@ -53,6 +58,5 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
             return pageTitle[3];
         }
     }
-
 
 }
