@@ -1,55 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="@dimen/list_item_height"
-    android:orientation="horizontal"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:background="@android:color/white">
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
     <ImageView
         android:id="@+id/image"
         android:layout_width="@dimen/image_dimension"
         android:layout_height="@dimen/image_dimension"
-        android:layout_marginTop="@dimen/margin_top"
         android:layout_marginLeft="@dimen/default_layout_margin"
-        android:layout_marginRight="@dimen/default_layout_margin" />
+        android:layout_marginRight="@dimen/default_layout_margin"
+        android:layout_marginTop="@dimen/margin_top" />
+
     <LinearLayout
         android:id="@+id/text_container"
         android:layout_width="match_parent"
         android:layout_height="@dimen/text_container_height"
-        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/default_layout_margin"
         android:layout_marginTop="@dimen/margin_top"
-        android:layout_marginLeft="@dimen/default_layout_margin">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/location_name_text_view"
+            style="@style/LocationNameText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="top"
-            tools:text="location name"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            />
+            tools:text="location name" />
+
         <TextView
             android:id="@+id/address_text_view"
+            style="@style/LocationText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/seperation_layout_margin"
             android:gravity="top"
-            tools:text="address"
-            android:textSize="14sp"
-            android:textStyle="normal"
-            android:textColor="@color/black"
-            android:layout_marginTop="@dimen/seperation_layout_margin"/>
+            tools:text="address" />
+
         <TextView
             android:id="@+id/description_text_view"
+            style="@style/LocationText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/seperation_layout_margin"
             android:gravity="top"
-            tools:text="description"
-            android:textSize="14sp"
-            android:textStyle="normal"
-            android:textColor="@color/black"
-            android:layout_marginTop="@dimen/seperation_layout_margin"/>
+            tools:text="description" />
     </LinearLayout>
 </LinearLayout>

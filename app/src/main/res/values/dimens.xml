@@ -6,5 +6,6 @@
     <dimen name="text_container_height">100dp</dimen>
     <dimen name="margin_top">10dp</dimen>
     <dimen name="default_layout_margin">5dp</dimen>
+    <dimen name="default_divider_height">5dp</dimen>
     <dimen name="seperation_layout_margin">2dp</dimen>
 </resources>
